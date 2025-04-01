@@ -55,4 +55,4 @@ def page_not_found(request, exception=None):
         'page_title': 'Page Not Found',
         'error_message': 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.'
     }
-    return render(request, '404.html', context, status=404)
+    return render(request, 'PreScApp/404.html', context, status=404)
